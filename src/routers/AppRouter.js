@@ -19,11 +19,11 @@ export const AppRouter = () => {
             <NavBar/>
             <div>
                 <Switch>
-                    <Route exact path = '/' component = { SuperContent } />
-                    <Route exact path = '/category/:idcate' component = { Content }/>
-                    <Route exact path = '/product/:producto' component = { Producto }/>
-                    <Route exact path = '/search' component = { SearchScreen } />
-                    <Redirect to = '/'/> 
+                    <Route exact path = '/libreria' component = { SuperContent } />
+                    <Route exact path = '/libreria/category/:idcate' component = { Content }/>
+                    <Route exact path = '/libreria/product/:producto' component = { Producto }/>
+                    <Route exact path = '/libreria/search' component = { SearchScreen } />
+                    <Redirect to = '/libreria'/> 
                 </Switch>
             </div>
             <Footer/>
