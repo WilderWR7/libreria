@@ -1,0 +1,22 @@
+.container-products {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 35% 65%;
+}
+.imagenEditar {
+    background-position: center center;
+    background-size: cover;
+    display: inline;
+    width: 100%;
+}
+.shop_top {
+    margin: 4rem 0;
+}
+@media only screen and (max-width:990px){
+    .container-products{
+        grid-template-columns: repeat( auto-fill,minmax(100%,1fr));
+    }
+}
+.m-56 {
+	margin-top: 30px!Important;
+}
