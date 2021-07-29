@@ -12,12 +12,12 @@ export const Copyrights = () => {
 
                 <div className="text-center text-md-right">
                     <div className="d-flex justify-content-center">
-                        <Link to ="/" className="social-icon si-small si-borderless si-facebook">
+                        <Link to ="/libreria" className="social-icon si-small si-borderless si-facebook">
                             <i className="icon-facebook"></i>
                             <i className="icon-facebook"></i>
                         </Link>
 
-                        <Link to ="/" className="social-icon si-small si-borderless si-gplus">
+                        <Link to ="/libreria" className="social-icon si-small si-borderless si-gplus">
                             <i className="icon-gplus"></i>
                             <i className="icon-gplus"></i>
                         </Link>
