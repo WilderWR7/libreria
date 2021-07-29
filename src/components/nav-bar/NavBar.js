@@ -24,7 +24,7 @@ export const NavBar = () => {
     const handleSubmit = (e)=> {
       e.preventDefault();
       //console.log(77)
-      h.push(`/search?q=${input}`)
+      h.push(`/libreria/search?q=${input}`)
     }
 
     const handleInput = (e) => {
