@@ -9,7 +9,7 @@ export const Categorias = ( {category} ) => {
 
     return (
         <li className="nav-item">
-            <Link onClick = { handleClick } className="nav-link active link-light" aria-current="page" to ={`/category/${category}`}>{category}</Link>
+            <Link onClick = { handleClick } className="nav-link active link-light" aria-current="page" to ={`/libreria/category/${category}`}>{category}</Link>
         </li>
     )
 }
